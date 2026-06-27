@@ -8,6 +8,7 @@
     <meta name="google-site-verification" content="FwlAHFhPOl6Z956HzQXHy87PWdvBy0KUuMm60_-U87M" />
     
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chatbot.css') }}">
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo.png') }}">
 </head>
 
@@ -297,7 +298,7 @@
     </footer>
 
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    <script src='https://www.noupe.com/embed/019ef88240ad7fcebbd43804d761b41a3257.js'></script>
+    <script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
 
 </body>
 
